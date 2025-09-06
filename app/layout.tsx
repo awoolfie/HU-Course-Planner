@@ -1,5 +1,8 @@
 import "./globals.css";
 import { ReactNode } from "react";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "FBEA Course Planner",
@@ -9,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col bg-gray-50 text-gray-800">
+      <body
+        className={`${inter.className} min-h-screen flex flex-col bg-gray-50 text-gray-800`}
+      >
         {/* Header */}
         <header className="bg-purple-700 text-white p-4 shadow sticky top-0 z-50">
           <div className="container mx-auto flex justify-between items-center">
