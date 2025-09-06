@@ -1,0 +1,962 @@
+[
+  {
+    "course.id": "ACC101",
+    "course.name": "Financial Accounting 1",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial 1",
+        "slots": [
+          {
+            "day": "Friday",
+            "start": 15,
+            "end": 18,
+            "room": "HLT 1.8",
+            "lecturer": "Mr David Lee Meng Wai",
+            "type": "Lecture"
+          },
+          {
+            "day": "Wednesday",
+            "start": 14,
+            "end": 16,
+            "room": "HLH G.5",
+            "lecturer": "Mr David Lee Meng Wai",
+            "type": "Tutorial 1"
+          }
+        ]
+      },
+      {
+        "label": "Lecture + Tutorial 2",
+        "slots": [
+          {
+            "day": "Friday",
+            "start": 15,
+            "end": 18,
+            "room": "HLT 1.8",
+            "lecturer": "Mr David Lee Meng Wai",
+            "type": "Lecture"
+          },
+          {
+            "day": "Thursday",
+            "start": 12,
+            "end": 14,
+            "room": "HLH G.7",
+            "lecturer": "Mr Liew Hong Jin",
+            "type": "Tutorial 2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course.id": "MPU3432",
+    "course.name": "Event Management",
+    "credits": 2,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture & Tutorial",
+        "slots": [
+          {
+            "day": "Wednesday",
+            "start": 12,
+            "end": 14,
+            "room": "EMPH",
+            "lecturer": "Ms Karen Lee & Ms Hasmiza",
+            "type": "Lecture & Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course.id": "HGA101",
+    "course.name": "Discovering Oneself",
+    "credits": 2,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture",
+        "slots": [
+          {
+            "day": "Wednesday",
+            "start": 14,
+            "end": 16,
+            "room": "EMPH",
+            "lecturer": "Ms Sydnede Lim",
+            "type": "Lecture"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course.id": "BPSY105",
+    "course.name": "Introduction to Quantitative Methods",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Thursday",
+            "start": 8,
+            "end": 10,
+            "room": "HLH G.5",
+            "lecturer": "Ms Deepa Alagappan",
+            "type": "Lecture"
+          },
+          {
+            "day": "Thursday",
+            "start": 10,
+            "end": 12,
+            "room": "HLH G.5",
+            "lecturer": "Ms Deepa Alagappan",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course.id": "MKT302",
+    "course.name": "Strategic Global Marketing",
+    "credits": 4,
+    "prereqs": ["MKT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 15,
+            "end": 16,
+            "room": "HLH 1.4",
+            "lecturer": "Mr Jacob Kulleh",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 16,
+            "end": 18,
+            "room": "HLH 1.4",
+            "lecturer": "Mr Jacob Kulleh",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course.id": "MGT305",
+    "course.name": "Business Ethics and Social Responsibility",
+    "credits": 4,
+    "prereqs": ["MGT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Thursday",
+            "start": 8,
+            "end": 9,
+            "room": "HLH G.3",
+            "lecturer": "Mr  R. Paneir Selvam",
+            "type": "Lecture"
+          },
+          {
+            "day": "Thursday",
+            "start": 9,
+            "end": 11,
+            "room": "HLH G.3",
+            "lecturer": "Mr  R. Paneir Selvam",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course.id": "MGT201",
+    "course.name": "Organisational Behaviour",
+    "credits": 4,
+    "prereqs": ["MGT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Friday",
+            "start": 9,
+            "end": 10,
+            "room": "HLH 1.5",
+            "lecturer": "Mr Alex Chang Yaw Yun",
+            "type": "Lecture"
+          },
+          {
+            "day": "Friday",
+            "start": 10,
+            "end": 12,
+            "room": "HLH 1.5",
+            "lecturer": "Mr Alex Chang Yaw Yun",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "course.id": "MGT302",
+    "course.name": "Change Management",
+    "credits": 4,
+    "prereqs": ["MGT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Wednesday",
+            "start": 9,
+            "end": 10,
+            "room": "HLH 1.5",
+            "lecturer": "Mr Brian Tan",
+            "type": "Lecture"
+          },
+          {
+            "day": "Wednesday",
+            "start": 10,
+            "end": 12,
+            "room": "HLH 1.5",
+            "lecturer": "Mr Brian Tan",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "course.id": "BPY310",
+    "course.name": "Cross-Cultural Psychology",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 8,
+            "end": 9,
+            "room": "HLH 1.5",
+            "lecturer": "Mr Ravi Varmman",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 9,
+            "end": 11,
+            "room": "HLH 1.5",
+            "lecturer": "Mr Ravi Varmman",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "course.id": "BPSY302",
+    "course.name": "Introduction to Industrial/Organizational Psychology",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture & Tutorial",
+        "slots": [
+          {
+            "day": "Wednesday",
+            "start": 15,
+            "end": 18,
+            "room": "HLH 1.5",
+            "lecturer": "Mr  Franklin Morais",
+            "type": "Lecture & Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "course.id": "MGT306",
+    "course.name": "Research Methodology for Business Psychology",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Thursday",
+            "start": 8,
+            "end": 9,
+            "room": "HLS 4",
+            "lecturer": "Dr Norzayana",
+            "type": "Lecture"
+          },
+          {
+            "day": "Thursday",
+            "start": 9,
+            "end": 11,
+            "room": "HLS 4",
+            "lecturer": "Dr Norzayana",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+    {
+  "course.id": "BPSY314",
+    "course.name": "Introduction to Economic Psychology",
+    "credits": 4,
+    "prereqs": ["BPSY205", "ECO100"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Thursday",
+            "start": 11,
+            "end": 12,
+            "room": "HLH 1.5",
+            "lecturer": "Dr Safiah Rashid",
+            "type": "Lecture"
+          },
+          {
+            "day": "Thursday",
+            "start": 12,
+            "end": 14,
+            "room": "HLH 1.5",
+            "lecturer": "Dr Safiah Rashid",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+   {
+  "course.id": "MGT212",
+    "course.name": "Business Analytics for Decision Making",
+    "credits": 4,
+    "prereqs": ["ITC101", "QBM101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Lab 1",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 11,
+            "end": 12,
+            "room": "HLH 1.4",
+            "lecturer": "Mr Alan Yap Cheng Tat",
+            "type": "Lecture"
+          },
+          {
+            "day": "Monday",
+            "start": 14,
+            "end": 16,
+            "room": "HLS 4",
+            "lecturer": "Mr Alan Yap Cheng Tat",
+            "type": "Tutorial 1"
+          }
+        ]
+      },
+      {
+        "label": "Lecture + Tutorial 2",
+        "slots": [
+          {
+             "day": "Tuesday",
+            "start": 11,
+            "end": 12,
+            "room": "HLH 1.4",
+            "lecturer": "Mr Alan Yap Cheng Tat",
+            "type": "Lecture"
+          },
+          {
+            "day": "Monday",
+            "start": 16,
+            "end": 18,
+            "room": "HLS 4",
+            "lecturer": "Mr Alan Yap Cheng Tat",
+            "type": "Tutorial 2"
+          }
+        ]
+      }
+    ]
+  },
+    {
+  "course.id": "BBA204",
+    "course.name": "Descriptive Business Analytics",
+    "credits": 4,
+    "prereqs": ["ITC101", "BBA100", "QBM101", "QBM201"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 8,
+            "end": 9,
+            "room": "HLH 1.4",
+            "lecturer": "Dr Vignes Gopal Krishna",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 9,
+            "end": 11,
+            "room": "HLH 1.4",
+            "lecturer": "Dr Vignes Gopal Krishna ",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+   {
+  "course.id": "BBA202",
+    "course.name": "Business Analytics & Information Systems",
+    "credits": 4,
+    "prereqs": ["ITC101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 15,
+            "end": 16,
+            "room": "HLS 4",
+            "lecturer": "Mr Alan Yap Cheng Tat",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 16,
+            "end": 18,
+            "room": "HLS 4",
+            "lecturer": "Mr Alan Yap Cheng Tat",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+     {
+  "course.id": "ECO203",
+    "course.name": "International Economics",
+    "credits": 4,
+    "prereqs": ["ECO101", "ECO102"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Wednesday",
+            "start": 9,
+            "end": 10,
+            "room": "HLH G.3",
+            "lecturer": "Dr Sharmila Thinagar",
+            "type": "Lecture"
+          },
+          {
+            "day": "Wednesday",
+            "start": 10,
+            "end": 12,
+            "room": "HLH G.3",
+            "lecturer": "Dr Sharmila Thinagar",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+   {
+  "course.id": "ENG101",
+    "course.name": "English for Academic Purposes",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Wednesday",
+            "start": 8,
+            "end": 10,
+            "room": "Online",
+            "lecturer": "Mr George Lau",
+            "type": "Lecture"
+          },
+          {
+            "day": "Wednesday",
+            "start": 10,
+            "end": 12,
+            "room": "Online",
+            "lecturer": "Mr George Lau",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+     {
+  "course.id": "ACC302",
+    "course.name": "Corporate Accounting",
+    "credits": 4,
+    "prereqs": ["ACC202", "LAW201"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 14,
+            "end": 16,
+            "room": "HLH G.6",
+            "lecturer": "Dr Shenba Kanagasabapathy",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 16,
+            "end": 18,
+            "room": "HLH G.6",
+            "lecturer": "Dr Shenba Kanagasabapathy",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+   {
+  "course.id": "FIN204",
+    "course.name": "Investments Analysis & Decision Making",
+    "credits": 4,
+    "prereqs": ["QBM101", "FIN202"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 12,
+            "end": 13,
+            "room": "HLH G.7",
+            "lecturer": "Mr Valliappan Kasi",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 13,
+            "end": 16,
+            "room": "HLH G.7",
+            "lecturer": "Mr Valliappan Kasi",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+     {
+  "course.id": "LAW201",
+    "course.name": "Company Law",
+    "credits": 4,
+    "prereqs": ["LAW101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Friday",
+            "start": 15,
+            "end": 16,
+            "room": "HLH G.6",
+            "lecturer": "Mr Harkiranpal Singh",
+            "type": "Lecture"
+          },
+          {
+            "day": "Friday",
+            "start": 10,
+            "end": 12,
+            "room": "HLH G.6",
+            "lecturer": "Mr Harkiranpal Singh",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+    {
+  "course.id": "MKT201",
+    "course.name": "Consumer Behaviour",
+    "credits": 4,
+    "prereqs": ["MKT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Monday",
+            "start": 11,
+            "end": 12,
+            "room": "HLH G.3",
+            "lecturer": "Mr Vijayan Subramaniam",
+            "type": "Lecture"
+          },
+          {
+            "day": "Monday",
+            "start": 12,
+            "end": 14,
+            "room": "HLH G.3",
+            "lecturer": "Mr Vijayan Subramaniam",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "course.id": "MKT203",
+    "course.name": "Distribution & Logistics Management",
+    "credits": 4,
+    "prereqs": ["MKT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 12,
+            "end": 13,
+            "room": "HLH 1.3",
+            "lecturer": "Mr Jacob Kulleh",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 13,
+            "end": 15,
+            "room": "HLH 1.3",
+            "lecturer": "Mr Jacob Kulleh",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+    {
+  "course.id": "MKT205",
+    "course.name": "Sales Management",
+    "credits": 4,
+    "prereqs": ["MKT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 9,
+            "end": 10,
+            "room": "BSR 2.1",
+            "lecturer": "Mr Brian Tan",
+            "type": "Lecture"
+          },
+          {
+            "day": "Wednesday",
+            "start": 16,
+            "end": 18,
+            "room": "HLH 1.5",
+            "lecturer": "Mr Brian Tan",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+      {
+  "course.id": "FIN201",
+    "course.name": "Business Finance",
+    "credits": 4,
+    "prereqs": ["ACC101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Thursday",
+            "start": 8,
+            "end": 9,
+            "room": "HLH 1.3",
+            "lecturer": "Mr Kannan A/L Shanmugam",
+            "type": "Lecture"
+          },
+          {
+            "day": "Thursday",
+            "start": 9,
+            "end": 11,
+            "room": "HLH 1.3",
+            "lecturer": "Mr Kannan A/L Shanmugam",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+    {
+  "course.id": "HRM201",
+    "course.name": "Managing Human Resources",
+    "credits": 4,
+    "prereqs": ["MGT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Thursday",
+            "start": 15,
+            "end": 16,
+            "room": "HLH G.5",
+            "lecturer": "Dr Safiah Rashid",
+            "type": "Lecture"
+          },
+          {
+            "day": "Thursday",
+            "start": 16,
+            "end": 18,
+            "room": "HLH G.5",
+            "lecturer": "Dr Safiah Rashid",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+      {
+  "course.id": "BBA303",
+    "course.name": "Marketing Analytics",
+    "credits": 4,
+    "prereqs": ["QBM101", "MKT101"],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Monday",
+            "start": 11,
+            "end": 12,
+            "room": "BSR 2.1",
+            "lecturer": "Assoc Prof Dr Normala",
+            "type": "Lecture"
+          },
+          {
+            "day": "Monday",
+            "start": 12,
+            "end": 14,
+            "room": "BSR 2.1",
+            "lecturer": "Assoc Prof Dr Normala",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "course.id": "MGT101",
+    "course.name": "Principles of Management",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial 1",
+        "slots": [
+          {
+            "day": "Monday",
+            "start": 8,
+            "end": 11,
+            "room": "HLT 1.8",
+            "lecturer": "Mr Rajender Singh",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 14,
+            "end": 16,
+            "room": "HLH G.4",
+            "lecturer": "Mr Rajender Singh",
+            "type": "Tutorial 1"
+          }
+        ]
+      },
+      {
+        "label": "Lecture + Tutorial 2",
+        "slots": [
+          {
+           "day": "Monday",
+            "start": 8,
+            "end": 11,
+            "room": "HLT 1.8",
+            "lecturer": "Mr Rajender Singh",
+            "type": "Lecture"
+          },
+          {
+            "day": "Monday",
+            "start": 16,
+            "end": 18,
+            "room": "HLH G.4",
+            "lecturer": "Mr Rajender Singh",
+            "type": "Tutorial 2"
+          }
+        ]
+      },
+      {
+        "label": "Lecture + Tutorial 4",
+        "slots": [
+          {
+            "day": "Monday",
+            "start": 8,
+            "end": 11,
+            "room": "HLT 1.8",
+            "lecturer": "Mr Rajender Singh",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday",
+            "start": 16,
+            "end": 18,
+            "room": "HLH G.4",
+            "lecturer": "Mr Rajender Singh",
+            "type": "Tutorial 4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "course.id": "D2QBM117",
+    "course.name": "Business Statistics",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Wednesday",
+            "start": 9,
+            "end": 12,
+            "room": "HLH G.6",
+            "lecturer": "Ms. Nuryasmin Wahida",
+            "type": "Lecture"
+          },
+          {
+            "day": "Wednesday" ,
+            "start": 16,
+            "end": 18,
+            "room": "HLH G.6",
+            "lecturer": "Ms. Nuryasmin Wahida",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "course.id": "D2ECO120",
+    "course.name": "Macroecomics",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Tuesday",
+            "start": 14,
+            "end": 16,
+            "room": "HLH G.5",
+            "lecturer": "Mr Syamsulang",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday" ,
+            "start": 10,
+            "end": 12,
+            "room": "HLH G.5",
+            "lecturer": "Mr Syamsulang",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  },
+      {
+  "course.id": "D2MGT100",
+    "course.name": "Organisations & Management",
+    "credits": 4,
+    "prereqs": [],
+    "category": "core",
+    "occurrences": [
+      {
+        "label": "Lecture + Tutorial",
+        "slots": [
+          {
+            "day": "Monday",
+            "start": 1130,
+            "end": 1430,
+            "room": "HLH G.5",
+            "lecturer": "Mr Rajender Singh",
+            "type": "Lecture"
+          },
+          {
+            "day": "Tuesday" ,
+            "start": 8,
+            "end": 10,
+            "room": "HLH G.5",
+            "lecturer": "Mr Rajender Singh",
+            "type": "Tutorial"
+          }
+        ]
+      }
+    ]
+  }
+]

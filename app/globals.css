@@ -1,0 +1,74 @@
+/* === Global Reset === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: ui-sans-serif, system-ui, sans-serif, Arial, "Segoe UI Emoji", "Noto Color Emoji";
+  line-height: 1.5;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* === Default Theme (Light) === */
+:root {
+  --background: 180 30% 95%;
+  --foreground: 200 50% 20%;
+
+  --primary: 187 65% 45%;
+  --secondary: 187 35% 90%;
+  --accent: 270 33% 83%;
+  --border: 187 35% 85%;
+}
+
+/* === Dark Theme (optional) === */
+.dark {
+  --background: 200 28% 17%;
+  --foreground: 0 0% 87%;
+  --primary: 199 95% 50%;
+  --secondary: 207 31% 21%;
+  --accent: 207 31% 21%;
+  --border: 207 31% 25%;
+}
+
+/* === Layout Containers === */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* === Header === */
+header {
+  background-color: #6b21a8; /* purple-700 */
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* === Main Content === */
+main {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+/* === Footer === */
+footer {
+  background-color: #e5e7eb; /* gray-200 */
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.875rem;
+  color: #4b5563; /* gray-600 */
+}
