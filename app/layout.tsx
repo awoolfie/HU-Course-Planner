@@ -1,6 +1,7 @@
 import "./globals.css";
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,19 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 
         {/* Footer */}
         <footer className="bg-gray-200 text-center p-4 text-sm text-gray-600">
+          <div className="mb-2">
+            <a
+              href="https://forms.gle/dHj5iiALFzJn6GwT7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-4 py-2 rounded-md bg-yellow-400 text-black font-semibold hover:bg-yellow-300 transition"
+              style={{ fontSize: "2rem", fontFamily: "cursive" }}
+            >
+              Feedback
+            </a>
+          </div>
           © {new Date().getFullYear()} awoolfie. All rights reserved.
+        <Analytics />
         </footer>
       </body>
     </html>

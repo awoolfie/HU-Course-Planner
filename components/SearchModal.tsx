@@ -78,6 +78,7 @@ export default function SearchModal({
   }, [search, modules]);
 
   return (
+
     <div className="fixed inset-0 z-50 flex items-center justify-center -mt-20">
       {/* Backdrop */}
       <div
@@ -90,26 +91,27 @@ export default function SearchModal({
       <div className="relative z-10 w-full max-w-3xl rounded-lg bg-white text-gray-900 p-6 shadow-lg">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold">Search Modules</h3>
-          <button
-            type="button"
-            onClick={onClose}
-            className="px-3 py-1 rounded-md bg-gray-200 hover:bg-gray-300"
-          >
-            Close
-          </button>
+          <div className="flex items-center gap-2">
+            <input
+              autoFocus
+              value={search}
+              onChange={(e) => {
+                if (currentModule) onSelectModule(null);
+                setSearch(e.target.value);
+              }}
+              placeholder="Type code or name (e.g. ACC101 or Accounting)"
+              className="border rounded-md px-3 py-2 min-w-[220px]"
+              style={{ marginRight: 8 }}
+            />
+            <button
+              type="button"
+              onClick={onClose}
+              className="px-3 py-1 rounded-md bg-gray-200 hover:bg-gray-300"
+            >
+              Close
+            </button>
+          </div>
         </div>
-
-        {/* Search field */}
-        <input
-          autoFocus
-          value={search}
-          onChange={(e) => {
-            if (currentModule) onSelectModule(null);
-            setSearch(e.target.value);
-          }}
-          placeholder="Type code or name (e.g. ACC101 or Accounting)"
-          className="w-full border rounded-md px-3 py-2 mb-4"
-        />
 
         {loading ? (
           <div className="text-sm text-gray-600">Loading…</div>
