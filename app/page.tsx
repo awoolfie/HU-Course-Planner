@@ -42,9 +42,6 @@ export default function Home() {
     <main className="min-h-screen bg-purple-700 text-white p-8">
       {/* Header */}
       <header className="mb-8">
-        <div className="mb-4 flex items-center gap-4">
-          {/* Upload Screenshot button and OCR logic should be added here if needed */}
-        </div>
         <div className="flex justify-between items-center mb-2">
           <h1 className="text-3xl font-bold">The Course Planner</h1>
         </div>

@@ -40,6 +40,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             </a>
           </div>
           © {new Date().getFullYear()} awoolfie. All rights reserved.
+          <br />dedicated for steffie. love you till the very end of my codes.
         <Analytics />
         </footer>
       </body>
