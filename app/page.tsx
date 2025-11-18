@@ -79,36 +79,36 @@ export default function Home() {
                             type="button"
                             className="px-3 py-1 rounded-md bg-purple-600 text-white hover:bg-purple-700"
                             onClick={() => {
-                              // Check for duplicate
-                              if (selectedModules.some(mod => mod.code === (m["course.id"] || m.code))) {
-                                setErrorMessage("Module already added.");
-                                setErrorType("conflict");
-                                return;
-                              }
-                              // Check credit hours
-                              if (totalCreditHours + m.credits > 20) {
-                                setErrorMessage(
-                                  `Adding ${(m["course.id"] || m.code)} would exceed the maximum of 20 credit hours.\n\nCurrent: ${totalCreditHours} credits\nAttempting to add: ${m.credits} credits\nMaximum allowed: 20 credits`
-                                );
-                                setErrorType("credits");
-                                return;
-                              }
-                              // Add first occurrence only
-                              const occ = m.occurrences?.[0] || null;
-                              if (!occ) {
-                                setErrorMessage("No occurrence available for this module.");
-                                setErrorType("conflict");
-                                return;
-                              }
-                              // Check for conflicts
-                              const existingSlots = selectedModules.flatMap((mod) => mod.occ.slots);
-                              if (hasConflict(existingSlots, occ.slots)) {
-                                setErrorMessage(
-                                  `The occurrence \"${occ.label}\" for ${(m["course.id"] || m.code)} conflicts with your existing timetable.`
-                                );
-                                setErrorType("conflict");
-                                return;
-                              }
+// Check for duplicate
+if (selectedModules.some(mod => mod.code === (m["course.id"] || m.code))) {
+  alert("Module already added."); // Native browser popup
+  return;
+}
+
+// Check credit hours
+if (totalCreditHours + m.credits > 20) {
+  alert(
+    `Adding ${(m["course.id"] || m.code)} would exceed the maximum of 20 credit hours.\n\n` +
+    `Current: ${totalCreditHours} credits\n` +
+    `Attempting to add: ${m.credits} credits\n` +
+    `Maximum allowed: 20 credits`
+  );
+  return;
+}
+
+// Add first occurrence only
+const occ = m.occurrences?.[0] || null;
+if (!occ) {
+  alert("No occurrence available for this module.");
+  return;
+}
+
+// Check for conflicts
+const existingSlots = selectedModules.flatMap((mod) => mod.occ.slots);
+if (hasConflict(existingSlots, occ.slots)) {
+  alert(`The occurrence "${occ.label}" for ${(m["course.id"] || m.code)} conflicts with your existing timetable.`);
+  return;
+}
                               setSelectedModules((prev) => [
                                 ...prev,
                                 {
