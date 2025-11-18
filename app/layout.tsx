@@ -27,13 +27,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <main className="flex-grow container mx-auto p-6">{children}</main>
 
         {/* Footer */}
-        <footer className="bg-gray-200 text-center p-4 text-sm text-gray-600">
+        <footer className="bg-gray-200 text-gray-200 text-center p-4 text-sm">
           <div className="mb-2">
             <a
               href="https://forms.gle/dHj5iiALFzJn6GwT7"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block px-4 py-2 rounded-md bg-yellow-400 text-black font-semibold hover:bg-yellow-300 transition"
+              className="inline-block px-4 py-2 rounded-md bg-transparent text-gray-200 font-semibold hover:bg-transparent transition"
               style={{ fontSize: "2rem", fontFamily: "cursive" }}
             >
               Feedback
@@ -41,7 +41,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           </div>
           © {new Date().getFullYear()} awoolfie. All rights reserved.
           <br />dedicated for steffie. love you till the very end of my codes.
-        <Analytics />
+          <Analytics />
         </footer>
       </body>
     </html>
